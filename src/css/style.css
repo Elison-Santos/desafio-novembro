@@ -1,0 +1,34 @@
+:root{
+    --fundo: #2045b3;
+}
+body{
+    background-color:#e6e9ea;
+}
+.container-header, .container-footer{
+    width: 100%;
+    height: 65px;
+    background-color: var(--fundo);
+    /*background-color: #adc2ff;*/
+}
+
+@media screen and (min-width : 887px ){
+    .section-products{
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+    .produto:hover{
+        zoom: 105%;
+        transition: 1,5s;
+        margin-bottom: 0;
+    } 
+    
+}
+@media screen and (min-width: 1200px){
+    .section-products{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .produto{
+        border-radius: 20px;
+        height: 330px;
+        width: 270px;
+    }
+}

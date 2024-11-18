@@ -5,11 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho de Compras</title>
+    
+    <!--aqui ficarão os css da página-->
+    <link rel="stylesheet" href="./css/reset.css">
+    
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
+    <header class="container-header">
+        <div>
+            <img class="logo" src="./img/logo da Elison Store com fundo transparente e estilo unisex.png" alt="">
+        </div>
+        <div class="menu-container">
+            <ol class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Login</a></li>
+                <li ><a href="#"><img class="carrinho" src="./img/carrinho.png" alt=""></a></li>
+            </ol>
+        </div>
+    </header>
+    <main class="container-main">
+        <section id="productsDiv" class="section-products">            
+        </section>
+    </main>
+    <footer class="container-footer">
+        <div></div>
+    </footer>
 
-    <script src="./index.js"></script> <!-- Conectado ao arquivo index.js -->
+    <script src="./js/recuperar-dados.js"></script> <!-- Conectado ao arquivo index.js -->
 </body>
 
 </html>

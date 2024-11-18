@@ -1,0 +1,42 @@
+.container-header{
+    margin-bottom: 40px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    height: 64px;
+    margin-left: 15px;
+    width: 64px;
+}
+.carrinho{
+    width: 64px;
+    height: 64px;
+}
+
+.menu{
+    max-height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu li{
+    height: 100%;
+    width: 150px;
+    text-align: center;
+}
+.menu li:last-child{
+    padding-bottom: px;
+}
+.menu li:hover{
+    background-color: #294393;
+    transition: 1s;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+.menu li a:hover{
+    color: #e6e9ea;
+}
